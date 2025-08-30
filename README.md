@@ -33,9 +33,3 @@ cd ../csms-transaction-service
 ```bash
 curl -X POST http://localhost:8080/transaction/authorize -H "Content-Type: application/json" -d '{"stationUuid":"25aac66b-6051-478a-95e2-6d3aa343b025","driverIdentifier":{"id":"aaaaaaaaaaaaaaaaaaaa"}}'
 ```
-
-## Notes
-
-- The csms-contracts project generates Avro classes and must be published to mavenLocal for the services to consume them.
-- The services use Confluent's Kafka Avro serializer/deserializer and expect a Schema Registry running at http://localhost:8081.
-- If you'd like Protobuf instead of Avro, tell me and I will create a Protobuf-based contracts project.
