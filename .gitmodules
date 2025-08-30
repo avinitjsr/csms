@@ -1,0 +1,9 @@
+[submodule "csms-common"]
+	path = csms-common
+	url = https://github.com/avinitjsr/csms-common.git
+[submodule "csms-transaction-service"]
+	path = csms-transaction-service
+	url = https://github.com/avinitjsr/csms-transaction-service.git
+[submodule "csms-authentication-service"]
+	path = csms-authentication-service
+	url = https://github.com/avinitjsr/csms-authentication-service.git
